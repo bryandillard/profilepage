@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href ="style.css">
+    
+    <title>FEF Final Review</title>
+</head>
+<body>
+        <div class="jumbotron">
+                <h1 class="display-4">Bryan Dillard, Full Stack Developer</h1>
+                <img src="https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/30712066_10211535814701584_6926771835916779520_n.jpg?_nc_cat=103&_nc_oc=AQlqkN88hwpqBQlMgVKjiDSbTMaD1K3tYYwqj9W00z4Bgc4LHLAprDRpqqwGSXR5X1L708kgcFTZCH8Wzoh87pds&_nc_ht=scontent.fhou1-2.fna&oh=a71ba449e6300c2db99245ac8739da90&oe=5DE1D7EF">
+                
+                <ul id="techskills">Tech Skills!
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>Python</li>
+                  <li>CSS</li>
+                  <li>AJAX</li>
+                  <li>Bootstrap</li>
+                 
+                </ul>
+                <hr class="my-4">
+                <h2>Social Media Links:</h2>
+                <a href= "https://github.com/bryandillard"><img class="myImg"
+                   height="100px" width="100px" src="images/github.png" ></a>
+                <a href= "https://www.facebook.com/bryan.dillard.52"><img class="myImg" 
+                  height="100px" width="100px" src="images/facebook.png"></a>
+                <a href= "https://www.linkedin.com/in/bryan-dillard-2250/"><img class="myImg"
+                   height="100px" width="100px" src="images/linkedin.png" ></a>
+                   
+                   <!--button void script-->
+                   <script>
+                      function disableButton() {
+                          document.getElementById("githubRepos").disabled = true;
+                      }
+                      </script>;
+            
+            <div id="button wrapper">
+              <button class ="btn btn-primary" onclick="githubRepo();disableButton()" id="githubRepos">Get Api Repos</button>
+            
+               <ul id= "repos">
+
+              </ul>
+            </div>
+              <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center">
+                <a href="mailto:dr.bdillard@gmail.com">
+            dr.bdillard@gmail.com<img src ="images/gmail.png"></a>
+             </div>
+   </footer>
+    </div>  
+
+
+    <!--bootstrap jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+    <!--jquery script-->
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <!--custom js-->
+    <script src="script.js"></script>
+</body>
+</html>
